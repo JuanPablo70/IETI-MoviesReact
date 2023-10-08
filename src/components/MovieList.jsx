@@ -5,11 +5,15 @@ export const MovieList = (props) => {
 
     const {list} = props;
 
+    const handleCheck = (movieName) => {
+        console.log(`Check clicked from ${movieName}`)
+    }
+
     return (
         <ul>
             {
                 list.map(movie => (
-                    <MovieCard name={movie.name}/>
+                    <MovieCard name={movie.name} onCheckClick={handleCheck}/>
                 ))
             }
         </ul>        
