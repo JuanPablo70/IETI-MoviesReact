@@ -1,6 +1,14 @@
+import Header from "./components/Header";
+import { MovieList } from "./components/MovieList";
+
 function App() {
 
-  return <div></div>
+  return (
+    <div>
+      <Header />
+      <MovieList />
+    </div>
+  );
   
 }
 
