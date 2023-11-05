@@ -1,22 +1,23 @@
 # Favourite Movies - React Hooks
 
-Este mini proyecto es una aplicación web interactiva que permite a los usuarios explorar una lista de películas y seleccionar sus favoritas. La aplicación utiliza ReactJS y demuestra el uso de los Hooks useState, useEffect y un Hook personalizado llamado useFavourites en una aplicación de selección de películas favoritas.
+This mini project is an interactive web application that allows users to explore a list of movies and select their favorites. The application utilizes ReactJS and demonstrates the use of useState, useEffect, and a custom Hook called useFavourites in a movie favorites selection application.
 
 ### Prerequisites
 
-Para hacer uso de esta aplicación debe tener conocimientos de:
-+ Node.js - Entorno de ejecución para JavaScript.
-+ ReactJS - Biblioteca de JavaScript para construir interfaces de usuario interactivas y reactivas.
+To use this application, you need to have knowledge of:
+
++ Node.js - Runtime environment for JavaScript.
++ ReactJS - JavaScript library for building interactive and reactive user interfaces.
 
 ### Installing and Running the Project
 
-To download this project, you must run the following command down below.
+To download this project, run the following command down below.
 
 ```
 git clone https://github.com/JuanPablo70/MoviesReact.git
 ```
 
-Una vez se tenga el proyecto descargado, se debe ingresar a VSCode o el editor favorito y ejecutar los siguiente comandos en la terminal:
+Once the project is downloaded, open it in your favorite code editor such as VSCode and execute the following commands in the terminal:
 
 ```
 npm install
@@ -24,13 +25,13 @@ npm install
 npm run dev
 ```
 
-En un navegador web, ingresar al enlace [MoviesReact](http://127.0.0.1:5173/) para visualizar el proyecto.
+In a web browser, visit the link [MoviesReact](http://127.0.0.1:5173/) to view the project.
 
-### Funcionamiento del Proyecto
+### Project Functionality
 
 ![favourites](img/favourites.gif)
 
-Al hacer clic en uno de los botones de favorito, se seleccionará la película como favorita y se guardará en el almacenamiento local. Por lo tanto, incluso si la página se recarga, seguirán mostrándose las últimas selecciones realizadas, manteniendo el estado de las preferencias del usuario.
+By clicking on one of the favorite buttons, the movie will be selected as a favorite and saved in the local storage. Therefore, even if the page is reloaded, the last selections made will continue to be displayed, maintaining the user's preference state.
 
 ### Build With
 
