@@ -41,3 +41,7 @@ By clicking on one of the favorite buttons, the movie will be selected as a favo
 ### Version
 
 1.0
+
+### Author
+
+[JuanPablo70](https://github.com/JuanPablo70)
